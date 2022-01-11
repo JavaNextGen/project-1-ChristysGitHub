@@ -14,6 +14,10 @@ package com.revature.models;
  *
  */
 public class Reimbursement extends AbstractReimbursement {
+	
+	private String description;
+	private String creationDate;
+	private String resolutionDate;
 
     public Reimbursement() {
         super();
